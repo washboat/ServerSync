@@ -1,0 +1,184 @@
+/** Add css rules here for your application. */
+
+
+/** Example rules used by the template application (remove for your app) */
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #777777;
+  margin: 40px 0px 70px;
+  text-align: center;
+}
+.connection-info-panel {
+/*width: 5vw;*/
+}
+.connection-info-panel .horizontal-info-panel {
+  float: right;
+}
+.deca-left {
+  width: 100%;
+}
+
+
+.transfer-text {
+  font-family: "Lucida Console", "Courier New", monospace;
+  word-wrap: break-word;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  white-space: nowrap;
+  /*width: 25px;*/
+
+  /*color: red;*/
+}
+.gwt-Label{
+  font-family: "Lucida Console", "Courier New", monospace;
+  word-wrap: break-word;
+  text-overflow: ellipsis;
+}
+
+.vertical-panel-even {
+  height: 40px;
+  background: #F5F5F5;
+}
+.vertical-panel-odd {
+  height: 40px;
+
+  background: #ffffff;
+}
+
+
+
+.sendButton {
+  display: block;
+  font-size: 16pt;
+}
+
+.choose-button{
+  background: url("icons/choose_icon.png") no-repeat center;
+  background-size: 64px;
+  width: 64px;
+  height: 64px;
+  border: white;
+}
+
+.cancel-button {
+  background: url("icons/cancel_button.png") no-repeat center;
+  background-size: 16px;
+  width: 16px;
+  height: 16px;
+  border: white;
+}
+.download-button {
+/*display: block;*/
+/*font-size: 16pt;*/
+background: url("icons/download_icon.png") no-repeat center;
+  background-size: 64px;
+  width: 64px;
+  height: 64px;
+  border: white;
+/*outline: none;*/
+}
+
+.download-button:active {
+  /*border-style: inset;*/
+  transform: translateY(1px);
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+  -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+  box-shadow: inset 0px 0px 5px #c1c1c1;
+  outline: none;
+}
+.gwt-DecoratorPanel .middleCenter{
+  height: 100%;
+  width: 100% ;
+}
+
+
+.gwt-ProgressBar-shell {
+  /*border: 2px solid #000000;*/
+  /*background-color: black;*/
+  height: 16px;
+  /*width: 50%;*/
+  /*border-radius: 8px;*/
+  padding-bottom: 0px;
+  padding-top: 0px;
+  background: #F5F5F5;
+  border-radius: 0px;
+  box-shadow: 0 2px 3px rgba(0,0,0,0.2) inset;
+
+  /*margin-left: 10px;*/
+}
+
+.gwt-ProgressBar-shell .gwt-ProgressBar-bar {
+  background-color: #EE5043;
+  padding-top: 1px;
+  /*width: 50%;*/
+  border-radius: 0px;
+
+
+
+}
+
+
+.gwt-ProgressBar-shell .gwt-ProgressBar-text {
+  /*padding: 0;*/
+  padding-top: 0px;
+  position: center;
+  margin: 0;
+  color: black;
+}
+
+.progressLabel {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+}
+progress{
+  /*-webkit-appearance: none;*/
+  /*-moz-appearance: none;*/
+  /*appearance: none;*/
+
+  /*background: #EEE;*/
+  /*box-shadow: 0 2px 3px rgba(0,0,0,0.2) inset;*/
+  /*border-radius: 3px;*/
+  height: 16px;
+}
+progress::-webkit-progress-bar{
+  background: #EEE;
+  box-shadow: 0 2px 3px rgba(0,0,0,0.2) inset;
+  border-radius: 3px;
+}
+progress::-webkit-progress-value {
+  background-color: #EE5043;
+  border-radius: 3px;
+}
+
+progress.download {
+  background: #EEE;
+  /*box-shadow: 0 2px 3px rgba(0,0,0,0.2) inset;*/
+  /*border-radius: 3px;*/
+  /*margin-left: -11.5%;*/
+  width: 100%;
+}
+
+/*.button .icon {*/
+/*  background: url('icons/download_icon.png') no-repeat center;*/
+/*}*/
+
+/** Most GWT widgets already have a style name defined */
+.gwt-DialogBox {
+  width: 400px;
+}
+
+.dialogVPanel {
+  margin: 5px;
+}
+
+.serverResponseLabelError {
+  color: red;
+}
+
+/** Set ids using widget.getElement().setId("idOfElement") */
+#closeButton {
+  margin: 15px 6px 6px;
+}
+

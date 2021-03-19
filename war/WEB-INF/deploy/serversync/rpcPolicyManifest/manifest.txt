@@ -1,0 +1,4 @@
+# Module serversync
+# RPC service class, partial path of RPC policy file
+com.mycompany.mywebapp.client.ProgressService, FCE4A9CEA482F31DA3032131233DF368.gwt.rpc
+com.mycompany.mywebapp.client.GreetingService, EDE2AF6509597DC70F62D0E11AA4E732.gwt.rpc

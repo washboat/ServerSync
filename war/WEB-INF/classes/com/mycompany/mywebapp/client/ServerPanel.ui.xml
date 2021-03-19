@@ -1,0 +1,20 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:g='urn:import:com.google.gwt.user.client.ui'>
+    <g:HTMLPanel>
+        <g:VerticalPanel ui:field="connectionInfo" styleName="connection-info-panel">
+            <g:HorizontalPanel ui:field="ipPanel" styleName="horizontal-info-panel">
+                <g:Label ui:field="ipLabel">IP: </g:Label>
+                <g:TextBox ui:field="ipField"/>
+            </g:HorizontalPanel>
+            <g:HorizontalPanel ui:field="aliasPanel" styleName="horizontal-info-panel">
+                <g:Label ui:field="aliasLabel">Alias: </g:Label>
+                <g:TextBox ui:field="aliasField"/>
+            </g:HorizontalPanel>
+            <g:HorizontalPanel ui:field="buttonPanel" styleName="horizontal-info-panel">
+                <g:Button ui:field="addButton">Create </g:Button>
+                <g:Button ui:field="updateButton">Update </g:Button>
+                <g:Button ui:field="removeButton">Remove </g:Button>
+            </g:HorizontalPanel>
+        </g:VerticalPanel>
+    </g:HTMLPanel>
+</ui:UiBinder>
